@@ -33,6 +33,7 @@ function ChatScreen({ chat, messages }) {
                         ...message.data(),
                         timestamp: message.data().timestamp?.toDate().getTime(),
                     }}
+                    
                 />
             ));
         } else {

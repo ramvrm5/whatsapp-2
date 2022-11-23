@@ -69,6 +69,7 @@ function ChatScreen({ chat, messages }) {
         setInput("");
         scrollToBottom()
     }
+    
 
     const recipient = recipientSnapshot?.docs?.[0]?.data();
     const recipientEmail = getRecipientEmail(chat.users, user);

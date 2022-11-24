@@ -65,7 +65,6 @@ function ChatScreen({ chat, messages }) {
             user: user.email,
             photoURL: user.photoURL,
         });
-
         setInput("");
         scrollToBottom()
     }

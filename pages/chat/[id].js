@@ -16,6 +16,7 @@ function Chat({ chat, messages }) {
             </Head>
             
             <Sidebar/>
+
             <ChatContainer>
                 <ChatScreen chat={chat} messages={messages} />
             </ChatContainer>
